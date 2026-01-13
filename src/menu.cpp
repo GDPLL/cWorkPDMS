@@ -1,5 +1,5 @@
-#include "../include/showInfo.h"
 #include "../include/pdms.h"
+#include "../include/showInfo.h"
 
 #include <cstdio>
 
@@ -29,10 +29,13 @@ bool jumpFunc(int code)
         case 1:
             echo();
             break;
-	case 2:
-	    break;`
-        default:
-            echo();
+	      case 2:
+	    break;
+    case 3:
+        // test conflict
+        break;
+    default:
+        echo();
     }
     return true;
 }
