@@ -1,9 +1,12 @@
-#include <iostream>
+#include "../include/showInfo.h"
+#include "../include/pdms.h"
+
 #include <cstdio>
 
 int menu()
 {
     int choice;
+    clearScreen();
     printf("\t\t\t|---------------------------------------|\n");
     printf("\t\t\t|        个人通讯录管理系统(PDMS)       |\n");
     printf("\t\t\t|---------------------------------------|\n");
@@ -18,4 +21,16 @@ int menu()
     printf("\t\t\t请输入你的选择：");
     scanf("%d", &choice);
     return choice;
+}
+
+bool jumpFunc(int code)
+{
+    switch (code) {
+        case 1:
+            echo();
+            break;
+        default:
+            echo();
+    }
+    return true;
 }

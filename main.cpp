@@ -5,6 +5,6 @@
 
 int main()
 {
-    std::cout << menu();
+    std::cout << jumpFunc(menu());
     return 0;
 }

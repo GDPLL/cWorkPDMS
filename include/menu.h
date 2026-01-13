@@ -2,3 +2,4 @@
 
 
 bool menu();
+bool jumpFunc(int code);

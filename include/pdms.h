@@ -12,3 +12,4 @@ struct address
 
 extern std::vector<address> addressData;
 
+void clearScreen();
